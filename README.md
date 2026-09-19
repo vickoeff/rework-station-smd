@@ -82,8 +82,7 @@ lib_deps =
     adafruit/MAX6675 library
 ```
 
-> ⚠️ Jika menggunakan ArduinoIDE tinggal copas isi dari file [main.cpp](./src/main.cpp)
-> Kalau upload gagal (`avrdude: stk500_recv()` timeout), coba ganti `board` ke `nanoatmega328new` — tergantung varian bootloader Nano kamu.
+> ⚠️ Jika menggunakan ArduinoIDE tinggal copas isi dari file [main.cpp](./src/main.cpp).
 
 ### Build & upload
 
