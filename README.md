@@ -54,7 +54,7 @@ Solder uap (hot air rework station) custom berbasis Arduino Nano, dengan kontrol
 
 ![Foto alat](./docs/Schematic.png)
 
-Atau bisa download PDFnya ![Document](./docs/Schematic.pdf)
+Atau bisa download PDFnya ![PDF](./docs/Schematic.pdf)
 
 ### Catatan wiring gagang
 
@@ -82,7 +82,7 @@ lib_deps =
     adafruit/MAX6675 library
 ```
 
-> ⚠️ Jika menggunakan ArduinoIDE tinggal copas isi dari file [Document](./src/main.cpp)
+> ⚠️ Jika menggunakan ArduinoIDE tinggal copas isi dari file [main.cpp](./src/main.cpp)
 > Kalau upload gagal (`avrdude: stk500_recv()` timeout), coba ganti `board` ke `nanoatmega328new` — tergantung varian bootloader Nano kamu.
 
 ### Build & upload
